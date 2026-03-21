@@ -1,26 +1,32 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "030ec646-6bfe-458f-8250-61bc58ac4ae9")
 	(paper "A2")
 	(lib_symbols
 		(symbol "PDB-altium-import:0_POWER_GROUND"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "0"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -29,38 +35,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name '0'"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "0_POWER_GROUND_0_0"
@@ -156,8 +170,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -166,6 +184,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -174,29 +194,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "04025A471JAT2A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_0_Ccomp_TI WEBENCH_1_0"
@@ -273,24 +299,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "1"
@@ -301,6 +309,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -321,8 +347,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -331,6 +361,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -339,29 +371,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "XAL7070-222MEB"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_0_L1_TI WEBENCH_1_0"
@@ -666,8 +704,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -676,6 +718,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -684,29 +728,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "NVMFS6H836NLT1G"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_0_M1_TI WEBENCH_1_0"
@@ -1017,8 +1067,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1027,6 +1081,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1035,29 +1091,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "NVMFS6H836NLT1G"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_0_M2_TI WEBENCH_1_0"
@@ -1362,8 +1424,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1372,6 +1438,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1380,29 +1448,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "CRCW040246K4FKED"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_0_Rcomp_TI WEBENCH_1_0"
@@ -1503,24 +1577,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "1"
@@ -1538,6 +1594,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -1545,8 +1619,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1555,6 +1633,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1563,29 +1643,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "LM5116MH/NOPB"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_0_U1_TI WEBENCH_1_0"
@@ -1896,24 +1982,6 @@
 					)
 				)
 				(pin passive line
-					(at -22.86 15.24 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -22.86 7.62 0)
 					(length 2.54)
 					(name "ULVO"
@@ -1950,6 +2018,24 @@
 					)
 				)
 				(pin passive line
+					(at -22.86 15.24 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -22.86 -7.62 0)
 					(length 2.54)
 					(name "RAMP"
@@ -1960,24 +2046,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -22.86 -15.24 0)
-					(length 2.54)
-					(name "SS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2004,52 +2072,16 @@
 					)
 				)
 				(pin passive line
-					(at -22.86 -25.4 0)
+					(at -22.86 -15.24 0)
 					(length 2.54)
-					(name "PGND"
+					(name "SS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -22.86 -25.4 0)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -30.48 90)
-					(length 2.54)
-					(name "COMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2076,6 +2108,132 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 -30.48 90)
+					(length 2.54)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -22.86 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 2.54)
+					(name "DEMB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 2.54)
+					(name "CSG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -25.4 0)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 2.54)
+					(name "LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 22.86 22.86 180)
 					(length 2.54)
 					(name "VCC"
@@ -2086,6 +2244,24 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -25.4 180)
+					(length 2.54)
+					(name "VCCX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2148,109 +2324,19 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -7.62 180)
+					(at -22.86 -25.4 0)
 					(length 2.54)
-					(name "LO"
+					(name "EP"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0 0)
 							)
 						)
 					)
-					(number "15"
+					(number "21"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -15.24 180)
-					(length 2.54)
-					(name "CSG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -17.78 180)
-					(length 2.54)
-					(name "DEMB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -22.86 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -25.4 180)
-					(length 2.54)
-					(name "VCCX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 0 0)
 							)
 						)
 					)
@@ -2268,8 +2354,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2278,6 +2368,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2286,29 +2378,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "08053C104KAT2A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Cboot_TI WEBENCH_1_0"
@@ -2433,8 +2531,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2443,6 +2545,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2451,29 +2555,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "C3225X7R2A225K23"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Cin_TI WEBENCH_1_0"
@@ -2598,8 +2708,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2608,6 +2722,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2616,29 +2732,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "C2012X7R2A104K12"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Cinx_TI WEBENCH_1_0"
@@ -2763,8 +2885,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2773,6 +2899,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2781,29 +2909,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "GRM32ER61C476KE1"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Cout_2_TI WEBENCH_1_0"
@@ -2928,8 +3062,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2938,6 +3076,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2946,29 +3086,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "GRM32ER61C476KE1"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Cout_TI WEBENCH_1_0"
@@ -3093,8 +3239,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3103,6 +3253,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3111,29 +3263,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "GRM1555C1H241GA0"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Cramp_TI WEBENCH_1_0"
@@ -3258,8 +3416,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3268,6 +3430,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3276,29 +3440,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "CGA4J2C0G1H333J1"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Css_TI WEBENCH_1_0"
@@ -3423,8 +3593,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3433,6 +3607,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3441,29 +3617,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "C1005X5R1E105K05"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Cvcc_TI WEBENCH_1_0"
@@ -3588,8 +3770,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3598,6 +3784,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3606,29 +3794,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "BAS516,115"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_D1_TI WEBENCH_1_0"
@@ -3669,24 +3863,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "K"
@@ -3704,6 +3880,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -3711,8 +3905,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3721,6 +3919,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3729,29 +3929,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "CRCW04021M00FKED"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Renable_TI WEBENCH_1_0"
@@ -3894,8 +4100,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3904,6 +4114,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3912,29 +4124,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "RT0805BRD0710K4L"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Rfbb_TI WEBENCH_1_0"
@@ -4077,8 +4295,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4087,6 +4309,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4095,29 +4319,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "ERJ-6ENF3242V"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Rfbt_TI WEBENCH_1_0"
@@ -4260,8 +4490,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4270,6 +4504,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4278,29 +4514,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "PRL1632-R005-F-T"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Rsense_TI WEBENCH_1_0"
@@ -4443,8 +4685,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4453,6 +4699,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4461,29 +4709,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "CRCW04026K65FKED"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Rt_TI WEBENCH_1_0"
@@ -4626,8 +4880,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4636,6 +4894,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4644,29 +4904,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "ERJ-6ENF9091V"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Ruv1_TI WEBENCH_1_0"
@@ -4809,8 +5075,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4819,6 +5089,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4827,29 +5099,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "CRCW080564K9FKEA"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_1_Ruv2_TI WEBENCH_1_0"
@@ -4998,8 +5276,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5008,6 +5290,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5016,29 +5300,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "C0402C150J4GACTU"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_2_Ccomp2_TI WEBENCH_1_0"
@@ -5163,8 +5453,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5173,6 +5467,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5181,29 +5477,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "WB_CURRENT_LOAD"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_3_Iout_TI WEBENCH_1_0"
@@ -5412,8 +5714,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5422,6 +5728,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5430,29 +5738,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "WB_BATTERY"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "root_3_Vin_TI WEBENCH_1_0"
@@ -6874,31 +7188,39 @@
 		(lib_id "PDB-altium-import:0_POWER_GROUND")
 		(at 326.39 181.61 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0280cd0e-63e7-42cb-85cc-55aff9d0c507")
 		(property "Reference" "#PWR?"
 			(at 326.39 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "0"
 			(at 326.39 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 326.39 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,6 +7229,8 @@
 		)
 		(property "Datasheet" ""
 			(at 326.39 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,6 +7239,8 @@
 		)
 		(property "Description" ""
 			(at 326.39 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,13 +7263,17 @@
 		(lib_id "TI WEBENCH:root_1_Cinx_TI WEBENCH")
 		(at 172.72 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "04cee7ff-e53c-46e4-990f-ad7546f53b5b")
 		(property "Reference" "Cinx"
 			(at 175.768 146.812 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,73 +7283,89 @@
 		)
 		(property "Value" "C2012X7R2A104K125AA"
 			(at 172.72 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 172.72 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 172.72 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "C2012X7R2A104K12"
 			(at 172.72 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "C2012X7R2A104K125AA"
 			(at 175.768 149.098 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "C2012X7R2A104K125AA"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "TDK"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "100nF"
 			(at 175.768 151.384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,31 +7392,39 @@
 		(lib_id "PDB-altium-import:0_POWER_GROUND")
 		(at 374.65 182.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "094112b2-dd37-419b-859f-d9806459adbd")
 		(property "Reference" "#PWR?"
 			(at 374.65 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "0"
 			(at 374.65 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 374.65 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,6 +7433,8 @@
 		)
 		(property "Datasheet" ""
 			(at 374.65 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,6 +7443,8 @@
 		)
 		(property "Description" ""
 			(at 374.65 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,13 +7467,17 @@
 		(lib_id "TI WEBENCH:root_1_Cout_2_TI WEBENCH")
 		(at 445.77 179.07 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b9796b4-79de-4e11-b766-793b35b8fdb8")
 		(property "Reference" "Cout_2"
 			(at 448.818 174.752 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,73 +7487,89 @@
 		)
 		(property "Value" "GRM32ER61C476KE15L"
 			(at 445.77 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 445.77 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 445.77 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "GRM32ER61C476KE1"
 			(at 445.77 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "GRM32ER61C476KE15L"
 			(at 448.818 177.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM32ER61C476KE15L"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "MuRata"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "47uF"
 			(at 448.818 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,31 +7596,39 @@
 		(lib_id "PDB-altium-import:0_POWER_GROUND")
 		(at 427.99 196.85 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2085e600-a012-4170-92cc-7e2e7d056e16")
 		(property "Reference" "#PWR?"
 			(at 427.99 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "0"
 			(at 427.99 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 427.99 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,6 +7637,8 @@
 		)
 		(property "Datasheet" ""
 			(at 427.99 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,6 +7647,8 @@
 		)
 		(property "Description" ""
 			(at 427.99 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,13 +7671,17 @@
 		(lib_id "TI WEBENCH:root_1_Cout_TI WEBENCH")
 		(at 427.99 179.07 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b38277e-00d7-4819-9623-359d8bbd3696")
 		(property "Reference" "Cout"
 			(at 431.038 174.752 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,73 +7691,89 @@
 		)
 		(property "Value" "GRM32ER61C476KE15L"
 			(at 427.99 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 427.99 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 427.99 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "GRM32ER61C476KE1"
 			(at 427.99 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "GRM32ER61C476KE15L"
 			(at 431.038 177.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM32ER61C476KE15L"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "MuRata"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "47uF"
 			(at 431.038 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,13 +7800,17 @@
 		(lib_id "TI WEBENCH:root_0_L1_TI WEBENCH")
 		(at 394.97 140.97 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "32f9462a-5092-461c-810e-b9fb87581c8f")
 		(property "Reference" "L1"
 			(at 394.97 136.652 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,73 +7820,89 @@
 		)
 		(property "Value" "XAL7070-222MEB"
 			(at 394.97 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 394.97 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 394.97 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "XAL7070-222MEB"
 			(at 394.97 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "XAL7070-222MEB"
 			(at 394.97 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "XAL7070-222MEB"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Coilcraft"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "2.2uH"
 			(at 394.97 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,13 +7929,17 @@
 		(lib_id "TI WEBENCH:root_2_Ccomp2_TI WEBENCH")
 		(at 300.99 196.85 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "38adf26c-992b-4511-9239-e4d80ad00850")
 		(property "Reference" "Ccomp2"
 			(at 300.99 190.754 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,73 +7949,89 @@
 		)
 		(property "Value" "C0402C150J4GACTU"
 			(at 300.99 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 300.99 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 300.99 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "C0402C150J4GACTU"
 			(at 300.99 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "C0402C150J4GACTU"
 			(at 300.99 199.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "C0402C150J4GACTU"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Kemet"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "15pF"
 			(at 300.99 203.708 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,13 +8058,17 @@
 		(lib_id "TI WEBENCH:root_0_M2_TI WEBENCH")
 		(at 370.84 154.94 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "41070eac-cfdc-4dfe-83ba-d2d82bb5b4e9")
 		(property "Reference" "M2"
 			(at 370.84 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,73 +8078,89 @@
 		)
 		(property "Value" "GENERIC_MOSFET_N"
 			(at 370.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 370.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 370.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "NVMFS6H836NLT1G"
 			(at 370.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "NVMFS6H836NLT1G"
 			(at 370.84 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GENERIC_MOSFET_N"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "ON Semiconductor"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "80V"
 			(at 370.84 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,13 +8190,17 @@
 		(lib_id "TI WEBENCH:root_1_D1_TI WEBENCH")
 		(at 341.63 128.27 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c2aabf8-5f69-4be4-a44a-f52bcce62708")
 		(property "Reference" "D1"
 			(at 344.678 123.952 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,73 +8210,89 @@
 		)
 		(property "Value" "BAS516,115"
 			(at 341.63 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 341.63 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 341.63 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "BAS516,115"
 			(at 341.63 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "BAS516,115"
 			(at 344.678 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "BAS516,115"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Nexperia"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "1.25V"
 			(at 344.678 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,13 +8319,17 @@
 		(lib_id "TI WEBENCH:root_1_Renable_TI WEBENCH")
 		(at 240.03 113.03 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "678dcc1d-843d-4f52-a529-774cbd36873e")
 		(property "Reference" "Renable"
 			(at 241.554 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,73 +8339,89 @@
 		)
 		(property "Value" "CRCW04021M00FKED"
 			(at 240.03 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 240.03 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 240.03 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CRCW04021M00FKED"
 			(at 240.03 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "CRCW04021M00FKED"
 			(at 241.554 112.522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "CRCW04021M00FKED"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Vishay-Dale"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "1M"
 			(at 241.554 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,13 +8448,17 @@
 		(lib_id "TI WEBENCH:root_0_M1_TI WEBENCH")
 		(at 370.84 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "73af07b4-1165-46df-a65d-63451cfd0fe7")
 		(property "Reference" "M1"
 			(at 370.84 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,73 +8468,89 @@
 		)
 		(property "Value" "GENERIC_MOSFET_N"
 			(at 370.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 370.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 370.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "NVMFS6H836NLT1G"
 			(at 370.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "NVMFS6H836NLT1G"
 			(at 370.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GENERIC_MOSFET_N"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "ON Semiconductor"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "80V"
 			(at 370.84 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,13 +8580,17 @@
 		(lib_id "TI WEBENCH:root_3_Iout_TI WEBENCH")
 		(at 490.22 176.53 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "820d980f-a31d-4038-ae44-7fcef9d73df5")
 		(property "Reference" "Iout"
 			(at 494.284 171.196 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,79 +8600,95 @@
 		)
 		(property "Value" "WB_CURRENT_LOAD"
 			(at 490.22 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 490.22 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 490.22 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "WB_CURRENT_LOAD"
 			(at 490.22 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "WB_CURRENT_LOAD"
 			(at 494.284 173.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "WB_CURRENT_LOAD"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "WB_CURRENT_LOAD"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "N/A"
 			(at 494.284 175.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8160,13 +8710,17 @@
 		(lib_id "TI WEBENCH:root_1_Cramp_TI WEBENCH")
 		(at 234.95 179.07 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "82b71fc1-d59e-494a-8af4-45ba9174d65f")
 		(property "Reference" "Cramp"
 			(at 237.998 174.752 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,73 +8730,89 @@
 		)
 		(property "Value" "GRM1555C1H241GA01D"
 			(at 234.95 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 234.95 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 234.95 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "GRM1555C1H241GA0"
 			(at 234.95 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "GRM1555C1H241GA01D"
 			(at 237.998 177.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM1555C1H241GA01D"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "MuRata"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "240pF"
 			(at 237.998 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,13 +8839,17 @@
 		(lib_id "TI WEBENCH:root_1_Rt_TI WEBENCH")
 		(at 209.55 177.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8528c85a-db87-4f70-b1c5-167ed3875042")
 		(property "Reference" "Rt"
 			(at 211.074 175.006 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,73 +8859,89 @@
 		)
 		(property "Value" "CRCW04026K65FKED"
 			(at 209.55 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 209.55 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 209.55 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CRCW04026K65FKED"
 			(at 209.55 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "CRCW04026K65FKED"
 			(at 211.074 177.292 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "CRCW04026K65FKED"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Vishay-Dale"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "6.65k"
 			(at 211.074 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,31 +8968,39 @@
 		(lib_id "PDB-altium-import:0_POWER_GROUND")
 		(at 200.66 203.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "aeaa4dc1-43c5-480e-b9fa-8ad719a6859a")
 		(property "Reference" "#PWR?"
 			(at 200.66 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "0"
 			(at 200.66 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 200.66 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,6 +9009,8 @@
 		)
 		(property "Datasheet" ""
 			(at 200.66 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,6 +9019,8 @@
 		)
 		(property "Description" ""
 			(at 200.66 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,31 +9043,39 @@
 		(lib_id "PDB-altium-import:0_POWER_GROUND")
 		(at 359.41 135.89 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5421dd8-5062-49f2-a4c5-d6fca92f962c")
 		(property "Reference" "#PWR?"
 			(at 359.41 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "0"
 			(at 359.41 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 359.41 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,6 +9084,8 @@
 		)
 		(property "Datasheet" ""
 			(at 359.41 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,6 +9094,8 @@
 		)
 		(property "Description" ""
 			(at 359.41 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,13 +9118,17 @@
 		(lib_id "TI WEBENCH:root_0_U1_TI WEBENCH")
 		(at 298.45 156.21 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b57fb1df-8516-4b0c-82fd-19eeba18f671")
 		(property "Reference" "U1"
 			(at 298.45 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,43 +9138,53 @@
 		)
 		(property "Value" "LM5116MH/NOPB"
 			(at 298.45 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 298.45 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 298.45 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "LM5116MH/NOPB"
 			(at 298.45 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "LM5116MH/NOPB"
 			(at 298.45 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,32 +9194,38 @@
 		)
 		(property "MANUFACTURER PART NUMBER" "LM5116MH/NOPB"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Texas Instruments"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "N/A"
 			(at 298.45 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -8670,13 +9304,17 @@
 		(lib_id "TI WEBENCH:root_0_Rcomp_TI WEBENCH")
 		(at 295.91 217.17 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6d1b446-59a3-4f3e-a89e-9525dda9859e")
 		(property "Reference" "Rcomp"
 			(at 295.91 212.598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,73 +9324,89 @@
 		)
 		(property "Value" "CRCW040246K4FKED"
 			(at 295.91 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 295.91 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 295.91 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CRCW040246K4FKED"
 			(at 295.91 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "CRCW040246K4FKED"
 			(at 295.91 218.694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "CRCW040246K4FKED"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Vishay-Dale"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "46.4k"
 			(at 295.91 222.504 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,13 +9433,17 @@
 		(lib_id "TI WEBENCH:root_1_Cboot_TI WEBENCH")
 		(at 341.63 148.59 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7c78327-adb3-461c-bc02-c49282bbe108")
 		(property "Reference" "Cboot"
 			(at 344.678 144.272 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8795,73 +9453,89 @@
 		)
 		(property "Value" "08053C104KAT2A"
 			(at 341.63 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 341.63 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 341.63 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "08053C104KAT2A"
 			(at 341.63 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "08053C104KAT2A"
 			(at 344.678 146.558 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "08053C104KAT2A"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "AVX"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "100nF"
 			(at 344.678 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,13 +9562,17 @@
 		(lib_id "TI WEBENCH:root_1_Ruv2_TI WEBENCH")
 		(at 190.5 115.57 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc4769b7-600c-4e12-a936-e6c286256f5c")
 		(property "Reference" "Ruv2"
 			(at 192.024 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,73 +9582,89 @@
 		)
 		(property "Value" "CRCW080564K9FKEA"
 			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CRCW080564K9FKEA"
 			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "CRCW080564K9FKEA"
 			(at 192.024 115.062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "CRCW080564K9FKEA"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Vishay-Dale"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "64.9k"
 			(at 192.024 117.348 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,13 +9691,17 @@
 		(lib_id "TI WEBENCH:root_0_Ccomp_TI WEBENCH")
 		(at 311.15 217.17 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc762603-4523-41e0-b5c0-7b31be0f3fef")
 		(property "Reference" "Ccomp"
 			(at 311.15 211.074 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9013,73 +9711,89 @@
 		)
 		(property "Value" "04025A471JAT2A"
 			(at 311.15 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 311.15 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 311.15 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "04025A471JAT2A"
 			(at 311.15 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "04025A471JAT2A"
 			(at 311.15 220.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "04025A471JAT2A"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "AVX"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "470pF"
 			(at 311.15 224.028 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,13 +9820,17 @@
 		(lib_id "TI WEBENCH:root_1_Ruv1_TI WEBENCH")
 		(at 190.5 177.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2a670a4-4c2a-40f5-aeb1-f1682c0db057")
 		(property "Reference" "Ruv1"
 			(at 192.024 175.006 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,73 +9840,89 @@
 		)
 		(property "Value" "ERJ-6ENF9091V"
 			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "ERJ-6ENF9091V"
 			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "ERJ-6ENF9091V"
 			(at 192.024 177.292 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "ERJ-6ENF9091V"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Panasonic"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "9.09k"
 			(at 192.024 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,13 +9949,17 @@
 		(lib_id "TI WEBENCH:root_1_Rfbb_TI WEBENCH")
 		(at 407.67 186.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d864d624-6fd9-4bcc-87fa-9804d2263500")
 		(property "Reference" "Rfbb"
 			(at 409.194 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,73 +9969,89 @@
 		)
 		(property "Value" "RT0805BRD0710K4L"
 			(at 407.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 407.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 407.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "RT0805BRD0710K4L"
 			(at 407.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "RT0805BRD0710K4L"
 			(at 409.194 186.182 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "RT0805BRD0710K4L"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Yageo"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "10.4k"
 			(at 409.194 188.468 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,13 +10078,17 @@
 		(lib_id "TI WEBENCH:root_1_Cin_TI WEBENCH")
 		(at 149.86 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e103d9e6-0048-4f47-8123-04a953913ad5")
 		(property "Reference" "Cin"
 			(at 152.908 146.812 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,73 +10098,89 @@
 		)
 		(property "Value" "C3225X7R2A225K230AB"
 			(at 149.86 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 149.86 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 149.86 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "C3225X7R2A225K23"
 			(at 149.86 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "C3225X7R2A225K230AB"
 			(at 152.908 149.098 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "C3225X7R2A225K230AB"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "TDK"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "2.2uF"
 			(at 152.908 151.384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9433,13 +10207,17 @@
 		(lib_id "TI WEBENCH:root_3_Vin_TI WEBENCH")
 		(at 120.65 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f08e06fe-27fb-400c-acee-f679fef16d5f")
 		(property "Reference" "Vin"
 			(at 124.46 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9449,79 +10227,95 @@
 		)
 		(property "Value" "WB_BATTERY"
 			(at 120.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 120.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 120.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "WB_BATTERY"
 			(at 120.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "WB_BATTERY"
 			(at 124.46 157.226 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "WB_BATTERY"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "WB_BATTERY"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "N/A"
 			(at 124.46 159.512 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9543,13 +10337,17 @@
 		(lib_id "TI WEBENCH:root_1_Cvcc_TI WEBENCH")
 		(at 359.41 128.27 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f496d932-f0a8-45b4-8f54-69bf67ccf127")
 		(property "Reference" "Cvcc"
 			(at 362.458 123.952 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,73 +10357,89 @@
 		)
 		(property "Value" "C1005X5R1E105K050BC"
 			(at 359.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 359.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 359.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "C1005X5R1E105K05"
 			(at 359.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "C1005X5R1E105K050BC"
 			(at 362.458 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "C1005X5R1E105K050BC"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "TDK"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "1uF"
 			(at 362.458 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,13 +10466,17 @@
 		(lib_id "TI WEBENCH:root_1_Rfbt_TI WEBENCH")
 		(at 407.67 162.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5e44bd9-7f11-4027-b0a2-b47f14a68938")
 		(property "Reference" "Rfbt"
 			(at 409.194 159.766 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,73 +10486,89 @@
 		)
 		(property "Value" "ERJ-6ENF3242V"
 			(at 407.67 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 407.67 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 407.67 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "ERJ-6ENF3242V"
 			(at 407.67 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "ERJ-6ENF3242V"
 			(at 409.194 162.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "ERJ-6ENF3242V"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Panasonic"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "32.4k"
 			(at 409.194 164.338 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,13 +10595,17 @@
 		(lib_id "TI WEBENCH:root_1_Rsense_TI WEBENCH")
 		(at 374.65 175.26 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f98c48be-d727-4ded-8533-9a70f1df4e1c")
 		(property "Reference" "Rsense"
 			(at 376.174 172.466 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,73 +10615,89 @@
 		)
 		(property "Value" "PRL1632-R005-F-T1"
 			(at 374.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 374.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 374.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "PRL1632-R005-F-T"
 			(at 374.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "PRL1632-R005-F-T1"
 			(at 376.174 174.752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "PRL1632-R005-F-T1"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "Susumu Co Ltd"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "5m"
 			(at 376.174 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,13 +10724,17 @@
 		(lib_id "TI WEBENCH:root_1_Css_TI WEBENCH")
 		(at 256.54 179.07 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcaa5928-ee30-4eef-9eed-34e6bf616e9f")
 		(property "Reference" "Css"
 			(at 259.588 174.752 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,73 +10744,89 @@
 		)
 		(property "Value" "CGA4J2C0G1H333J125AA"
 			(at 256.54 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 256.54 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 256.54 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CGA4J2C0G1H333J1"
 			(at 256.54 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PACKAGEREFERENCE" "CGA4J2C0G1H333J125AA"
 			(at 259.588 177.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "CGA4J2C0G1H333J125AA"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER NAME" "TDK"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ALTIUM_VALUE" "33nF"
 			(at 259.588 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
