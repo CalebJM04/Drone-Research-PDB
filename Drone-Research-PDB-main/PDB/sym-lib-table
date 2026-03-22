@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PDB-altium-import") (type "KiCad") (uri "${KIPRJMOD}/PDB-altium-import.kicad_sym") (options "") (descr ""))
+	(lib (name "LM76005RNPR") (type "KiCad") (uri "${KIPRJMOD}/sym&foot/LM76005RNPR/LM76005RNPR.kicad_sym") (options "") (descr ""))
+)
