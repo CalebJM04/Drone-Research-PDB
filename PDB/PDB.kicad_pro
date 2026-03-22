@@ -645,7 +645,7 @@
         "uuid": "a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U3-4,L2,BT1,#PWR1-3,C1-4,1,R1-2",
     "variants": []
   },
   "sheets": [
@@ -656,6 +656,14 @@
     [
       "a24fc02a-90d5-41f1-96d5-cd0fa3bff83a",
       "5V@12A"
+    ],
+    [
+      "fb4943bd-b408-4249-996b-df676f2bb727",
+      "5V@4A"
+    ],
+    [
+      "eaf0840f-875c-44d4-b065-16bc98c2c6be",
+      "3V3@1A"
     ]
   ],
   "text_variables": {
