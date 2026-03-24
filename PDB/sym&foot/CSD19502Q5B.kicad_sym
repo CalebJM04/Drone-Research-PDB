@@ -1,0 +1,161 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CSD19502Q5B" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Q" (id 0) (at -11.43 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CSD19502Q5B" (id 1) (at -11.43 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CSD19502Q5B:TRANS_CSD19502Q5B" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DigiKey_Part_Number" "296-37194-1-ND" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/CSD19502Q5B/Texas+Instruments/view-part/?ref=snap" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.05mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "VSON-CLIP-8 Texas Instruments" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/CSD19502Q5B/Texas+Instruments/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "May 2017" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Texas Instruments" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "CSD19502Q5B" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            80-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.1 mOhm\n                        \n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Texas Instruments" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CSD19502Q5B_0_0"
+      (polyline
+        (pts (xy -1.778 0.762) (xy -1.778 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 0.0) (xy -1.778 -0.762)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 3.175) (xy -1.778 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 2.54) (xy -1.778 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 0.0) (xy 0.0 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -1.905) (xy -1.778 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -2.54) (xy -1.778 -3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy -1.778 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 2.54) (xy 1.27 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 0.508) (xy 1.27 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy 1.27 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 2.54) (xy 1.27 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 0.508) (xy 1.27 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 0.508) (xy 0.762 0.508)) (stroke (width 0.1524))
+      )
+      (circle (center 0.0 -2.54) (radius 0.3592)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 0.0 2.54) (radius 0.3592)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 0.508)
+          (xy 0.762 -0.254)
+          (xy 1.778 -0.254)
+          (xy 1.27 0.508)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.524 0.0)
+          (xy -0.508 0.762)
+          (xy -0.508 -0.762)
+          (xy -1.524 0.0)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (pin passive line (at 0.0 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -5.08 90.0) (length 2.54) hide
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -5.08 90.0) (length 2.54) hide
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

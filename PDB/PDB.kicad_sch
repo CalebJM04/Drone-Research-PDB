@@ -8097,8 +8097,8 @@
 		)
 	)
 	(sheet
-		(at 295.91 38.1)
-		(size 17.78 8.89)
+		(at 270.51 53.34)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8113,7 +8113,7 @@
 		)
 		(uuid "73280642-a7d9-4144-aaf4-80e2ae791ad9")
 		(property "Sheetname" "24V@30W"
-			(at 295.91 37.3884 0)
+			(at 270.51 52.6284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8124,7 +8124,7 @@
 			)
 		)
 		(property "Sheetfile" "PoE.kicad_sch"
-			(at 295.91 47.5746 0)
+			(at 270.51 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8132,6 +8132,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+Batt" input
+			(at 270.51 55.88 180)
+			(uuid "7a2c9e88-7bad-4d8f-a722-dd761db8d7a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24V@1.5A" output
+			(at 290.83 55.88 0)
+			(uuid "fa3aa4ec-73c1-43ca-b317-c77785340201")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 270.51 59.69 180)
+			(uuid "409849c9-bee1-46a3-a286-b8099d2b8d7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -8143,8 +8173,8 @@
 		)
 	)
 	(sheet
-		(at 233.68 39.37)
-		(size 25.4 11.43)
+		(at 270.51 69.215)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8159,7 +8189,7 @@
 		)
 		(uuid "a24fc02a-90d5-41f1-96d5-cd0fa3bff83a")
 		(property "Sheetname" "5V@12A"
-			(at 233.68 38.6584 0)
+			(at 270.51 68.5034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8170,7 +8200,7 @@
 			)
 		)
 		(property "Sheetfile" "5v.kicad_sch"
-			(at 233.68 51.3846 0)
+			(at 270.51 78.6896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8178,6 +8208,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+Batt" input
+			(at 270.51 71.755 180)
+			(uuid "973113df-3fe5-4e79-a416-09224dd2861e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V@12A" output
+			(at 290.83 71.755 0)
+			(uuid "6db661e9-8a10-49e0-9aa0-1d3873adef3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 270.51 75.565 180)
+			(uuid "00dad051-bccc-4807-943d-70bcbe66e00a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -8189,8 +8249,8 @@
 		)
 	)
 	(sheet
-		(at 271.78 52.07)
-		(size 17.78 8.89)
+		(at 295.91 37.465)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8205,7 +8265,7 @@
 		)
 		(uuid "eaf0840f-875c-44d4-b065-16bc98c2c6be")
 		(property "Sheetname" "3V3@1A"
-			(at 271.78 51.3584 0)
+			(at 295.91 36.7534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8216,7 +8276,7 @@
 			)
 		)
 		(property "Sheetfile" "3v3_1a.kicad_sch"
-			(at 271.78 61.5446 0)
+			(at 295.91 46.9396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8224,6 +8284,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3.3V@1A" output
+			(at 316.23 40.005 0)
+			(uuid "e9e27fb6-9288-4743-9ab3-28e4afbbf99f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V@4A" input
+			(at 295.91 40.005 180)
+			(uuid "4a0ee6c4-256f-4192-a206-859f211f879c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" passive
+			(at 295.91 43.815 180)
+			(uuid "5afd9012-2792-4a9e-bed2-d0be6986486a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -8235,8 +8325,8 @@
 		)
 	)
 	(sheet
-		(at 271.78 38.1)
-		(size 17.78 8.89)
+		(at 270.51 37.465)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8251,7 +8341,7 @@
 		)
 		(uuid "fb4943bd-b408-4249-996b-df676f2bb727")
 		(property "Sheetname" "5V@4A"
-			(at 271.78 37.3884 0)
+			(at 270.51 36.7534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8262,7 +8352,7 @@
 			)
 		)
 		(property "Sheetfile" "5v_4a.kicad_sch"
-			(at 271.78 47.5746 0)
+			(at 270.51 46.9396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8270,6 +8360,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+Batt" input
+			(at 270.51 40.005 180)
+			(uuid "60cc2ff6-6e5b-4d64-a832-99ac9b2f0d48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V@4A" output
+			(at 290.83 40.005 0)
+			(uuid "e3e04c74-8842-4b64-a594-5586e4fb87a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 270.51 43.815 180)
+			(uuid "2241f2c8-032c-4556-a84b-25074258a164")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
