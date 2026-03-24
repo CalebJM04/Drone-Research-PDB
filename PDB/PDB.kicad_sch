@@ -8097,6 +8097,52 @@
 		)
 	)
 	(sheet
+		(at 295.91 38.1)
+		(size 17.78 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "73280642-a7d9-4144-aaf4-80e2ae791ad9")
+		(property "Sheetname" "24V@30W"
+			(at 295.91 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PoE.kicad_sch"
+			(at 295.91 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 233.68 39.37)
 		(size 25.4 11.43)
 		(exclude_from_sim no)

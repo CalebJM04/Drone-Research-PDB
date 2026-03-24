@@ -645,7 +645,7 @@
         "uuid": "a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
       }
     ],
-    "used_designators": "U3-4,L2,BT1,#PWR1-3,C1-4,1,R1-2",
+    "used_designators": "U3,BT2,L2,#PWR4-7,#PWR9-11,R1-2,C1-2",
     "variants": []
   },
   "sheets": [
@@ -664,6 +664,10 @@
     [
       "eaf0840f-875c-44d4-b065-16bc98c2c6be",
       "3V3@1A"
+    ],
+    [
+      "73280642-a7d9-4144-aaf4-80e2ae791ad9",
+      "24V@30W"
     ]
   ],
   "text_variables": {
