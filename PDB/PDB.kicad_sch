@@ -8249,6 +8249,52 @@
 		)
 	)
 	(sheet
+		(at 297.18 57.15)
+		(size 17.78 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b0911c37-41be-485e-baed-d6c7fecee207")
+		(property "Sheetname" "USB-C PD"
+			(at 297.18 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBCPD.kicad_sch"
+			(at 297.18 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 295.91 37.465)
 		(size 20.32 8.89)
 		(exclude_from_sim no)
