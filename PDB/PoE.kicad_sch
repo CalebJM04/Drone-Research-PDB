@@ -482,6 +482,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2436,6 +2588,12 @@
 		(uuid "afc54329-8ee3-4b0d-9f09-2a7fdb01a04a")
 	)
 	(junction
+		(at 271.78 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0adec3e-1912-4465-80fe-3452fa725af2")
+	)
+	(junction
 		(at 44.45 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2452,12 +2610,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b877dec5-267e-4b3d-8ed9-6bf9e841d155")
-	)
-	(junction
-		(at 271.78 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb9b6da8-0d53-43c6-9a4d-1943071bb712")
 	)
 	(junction
 		(at 125.73 116.84)
@@ -2664,6 +2816,16 @@
 			(type default)
 		)
 		(uuid "1ee5c40c-720f-454e-9619-1613f5410964")
+	)
+	(wire
+		(pts
+			(xy 271.78 78.74) (xy 271.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7b4c1f-effb-4321-8cb5-ac62b298ae6e")
 	)
 	(wire
 		(pts
@@ -3254,6 +3416,16 @@
 			(type default)
 		)
 		(uuid "99f78a18-20fa-4db7-b66e-348cd1c5e4b6")
+	)
+	(wire
+		(pts
+			(xy 271.78 68.58) (xy 271.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8e3110-ccf8-42a4-a2b6-6b12391f63a4")
 	)
 	(wire
 		(pts
@@ -4488,7 +4660,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V5")
-		(at 271.78 81.28 0)
+		(at 271.78 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4499,7 +4671,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e39936b-5b67-47db-923c-8adf3bcb1524")
 		(property "Reference" "#PWR021"
-			(at 271.78 85.09 0)
+			(at 271.78 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4510,7 +4682,7 @@
 			)
 		)
 		(property "Value" "24V@1.5A"
-			(at 271.78 76.2 0)
+			(at 271.78 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4520,7 +4692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 81.28 0)
+			(at 271.78 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,7 +4703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 81.28 0)
+			(at 271.78 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,7 +4714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V5\""
-			(at 271.78 81.28 0)
+			(at 271.78 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6144,6 +6316,88 @@
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/73280642-a7d9-4144-aaf4-80e2ae791ad9"
 					(reference "Ruv1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 271.78 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdd3ef0a-5ba3-4ccd-b249-68a49e4085fb")
+		(property "Reference" "F3"
+			(at 274.32 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TR/3216FF15-R"
+			(at 274.32 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.558 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 271.78 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cfe1b8b3-91d3-4d37-a6ec-933a1d78c4b6")
+		)
+		(pin "1"
+			(uuid "ac29ed84-2794-4eeb-8d82-5a7777f9336b")
+		)
+		(instances
+			(project "PDB"
+				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/73280642-a7d9-4144-aaf4-80e2ae791ad9"
+					(reference "F3")
 					(unit 1)
 				)
 			)

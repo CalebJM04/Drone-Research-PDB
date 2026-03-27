@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "00a9dae8-462c-40dd-8d7a-d222ef0a35c7")
+	(uuid "ab7eff6d-563c-4b31-a1a3-bc9eb6f8d105")
 	(paper "A2")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle"
@@ -1256,6 +1256,158 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4374,12 +4526,6 @@
 		(uuid "453671e0-6c1a-4829-a379-288c1d3ddb19")
 	)
 	(junction
-		(at 452.12 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b73e559-7728-43c9-a458-3c8aa530020a")
-	)
-	(junction
 		(at 90.17 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4486,6 +4632,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7aae081c-b93e-4ded-9deb-cce9325f904c")
+	)
+	(junction
+		(at 467.36 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7af04b10-72aa-4679-8d08-b0d72bfbe8d4")
 	)
 	(junction
 		(at 74.93 154.94)
@@ -4614,12 +4766,6 @@
 		(uuid "c1a8bdef-af4e-45a2-b10b-642f5b2087aa")
 	)
 	(junction
-		(at 467.36 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca994f5a-a824-4a32-8bcd-b4da0f06ef5c")
-	)
-	(junction
 		(at 364.49 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4648,6 +4794,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6623dd1-2f36-4a68-9b68-459b0cf881a3")
+	)
+	(junction
+		(at 452.12 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e999f0-bae8-4ac2-8821-b60b5f93c484")
 	)
 	(junction
 		(at 90.17 193.04)
@@ -4780,6 +4932,16 @@
 			(type default)
 		)
 		(uuid "04dd35fa-d947-4928-a3f2-e201abf9e48c")
+	)
+	(wire
+		(pts
+			(xy 463.55 160.02) (xy 467.36 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a99477f-837c-44e1-92d0-63f866932deb")
 	)
 	(wire
 		(pts
@@ -5160,16 +5322,6 @@
 			(type default)
 		)
 		(uuid "344f265c-2fb9-4852-9d07-c432fe9ffe9c")
-	)
-	(wire
-		(pts
-			(xy 452.12 160.02) (xy 467.36 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34716a1d-25de-4b6d-9930-3362e29c601f")
 	)
 	(wire
 		(pts
@@ -6710,6 +6862,16 @@
 			(type default)
 		)
 		(uuid "f3889f29-4399-43f9-adcc-ecbe5f662c0b")
+	)
+	(wire
+		(pts
+			(xy 452.12 160.02) (xy 455.93 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42c0c43-a943-43ac-8ba7-f9114f107a8d")
 	)
 	(wire
 		(pts
@@ -10062,6 +10224,86 @@
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 459.74 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f8ed65b-a082-4df1-9d61-151197d277b9")
+		(property "Reference" "F4"
+			(at 459.74 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TR/3216FF15-R"
+			(at 459.74 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 459.74 161.798 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 459.74 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 459.74 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e1baaae5-b0df-4ebd-b8f1-62a11762692a")
+		)
+		(pin "1"
+			(uuid "93f187d0-44fc-4937-85ae-982620c95ce8")
+		)
+		(instances
+			(project "PDB"
+				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
+					(reference "F4")
 					(unit 1)
 				)
 			)

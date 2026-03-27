@@ -4625,6 +4625,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Energy:INA228"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA228"
+				(at 3.81 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+				(at 20.32 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina228.pdf"
+				(at 8.89 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ADC I2C 20-Bit Oversampling Current Shunt"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TSSOP*3x3mm?P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "INA228_0_1"
+				(rectangle
+					(start 7.62 10.16)
+					(end -7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "INA228_1_1"
+				(pin input line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~{Alert}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "Vbus"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "Vin-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "Vin+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Temperature:MCP9804_DFN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12639,6 +12917,112 @@
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Energy:INA228")
+		(at 344.17 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85338fd5-29c0-4fcc-94c8-8e422ba31fd7")
+		(property "Reference" "U12"
+			(at 346.3133 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA228"
+			(at 346.3133 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 364.49 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina228.pdf"
+			(at 353.06 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)"
+			(at 344.17 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18321dfa-a7c2-4332-baa6-62d6d5e499b4")
+		)
+		(pin "3"
+			(uuid "8ef7a57b-075e-4672-bbc7-6fd9288cae4e")
+		)
+		(pin "4"
+			(uuid "badcb8c8-617c-4ad3-95ec-6d3dcccacc7f")
+		)
+		(pin "5"
+			(uuid "49921450-a2c8-4854-ba39-2dc8544ea8e2")
+		)
+		(pin "2"
+			(uuid "6ee67f39-1828-448e-9487-3378468adf51")
+		)
+		(pin "7"
+			(uuid "b2e6c16f-644b-4dd4-ad98-a3be122d48f3")
+		)
+		(pin "6"
+			(uuid "c74b96c7-1f23-44c2-b677-e141da8ae05a")
+		)
+		(pin "9"
+			(uuid "44e03664-3bcb-4308-a19b-2b305afec3ad")
+		)
+		(pin "10"
+			(uuid "ebdf9f98-4f47-4757-b42c-4e43a9e69f4e")
+		)
+		(pin "8"
+			(uuid "236ac078-2be9-4459-b9ff-09df4b6ed95d")
+		)
+		(instances
+			(project "PDB"
+				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
+					(reference "U12")
 					(unit 1)
 				)
 			)
