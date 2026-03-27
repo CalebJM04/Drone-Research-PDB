@@ -7133,7 +7133,7 @@
 		(uuid "1424d15b-b51b-4f60-a1fb-a6be02a48440")
 	)
 	(junction
-		(at 476.25 124.46)
+		(at 476.25 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17ba999a-7721-4ca9-96b7-c066bcb2c7d4")
@@ -7199,7 +7199,7 @@
 		(uuid "36bd5eb5-cccc-4525-869a-df77ab66ca6c")
 	)
 	(junction
-		(at 476.25 127)
+		(at 476.25 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ebd8c53-8525-47d6-8b12-600b1a5b28c5")
@@ -7589,7 +7589,7 @@
 		(uuid "fce0a113-9ce0-40e2-a0bc-3eb268cc62e8")
 	)
 	(junction
-		(at 476.25 129.54)
+		(at 476.25 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcf83976-6194-416d-9bf6-c18cbef9a034")
@@ -8550,7 +8550,7 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 127) (xy 476.25 127)
+			(xy 468.63 125.73) (xy 476.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8700,7 +8700,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 129.54) (xy 476.25 134.62)
+			(xy 476.25 128.27) (xy 476.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8810,7 +8810,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 124.46) (xy 476.25 119.38)
+			(xy 476.25 123.19) (xy 476.25 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8820,7 +8820,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 127) (xy 476.25 129.54)
+			(xy 476.25 125.73) (xy 476.25 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9740,7 +9740,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 127) (xy 476.25 124.46)
+			(xy 476.25 125.73) (xy 476.25 123.19)
 		)
 		(stroke
 			(width 0)
@@ -13217,7 +13217,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 481.33 124.46 0)
+		(at 481.33 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13228,7 +13228,7 @@
 		(fields_autoplaced yes)
 		(uuid "4420400c-127f-4245-b9cc-1e9016ba7e7e")
 		(property "Reference" "J13"
-			(at 482.6 123.1899 0)
+			(at 482.6 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13239,7 +13239,7 @@
 			)
 		)
 		(property "Value" "ESC - xt90"
-			(at 482.6 125.7299 0)
+			(at 482.6 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13250,7 +13250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 481.33 124.46 0)
+			(at 481.33 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13261,7 +13261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 481.33 124.46 0)
+			(at 481.33 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13272,7 +13272,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 481.33 124.46 0)
+			(at 481.33 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16469,7 +16469,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 481.33 119.38 0)
+		(at 481.33 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16480,7 +16480,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b89a113-fcf4-465b-b3e9-6fbbdefe0f71")
 		(property "Reference" "J12"
-			(at 482.6 118.1099 0)
+			(at 482.6 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16491,7 +16491,7 @@
 			)
 		)
 		(property "Value" "ESC - xt90"
-			(at 482.6 120.6499 0)
+			(at 482.6 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16502,7 +16502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 481.33 119.38 0)
+			(at 481.33 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16513,7 +16513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 481.33 119.38 0)
+			(at 481.33 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16524,7 +16524,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 481.33 119.38 0)
+			(at 481.33 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16793,7 +16793,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 468.63 127 90)
+		(at 468.63 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16804,7 +16804,7 @@
 		(fields_autoplaced yes)
 		(uuid "a06a0d0d-9881-4a9b-9fb9-fe4dcebf115f")
 		(property "Reference" "#PWR041"
-			(at 472.44 127 0)
+			(at 472.44 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16815,7 +16815,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 463.55 127 0)
+			(at 463.55 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16825,7 +16825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 468.63 127 0)
+			(at 468.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16836,7 +16836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 468.63 127 0)
+			(at 468.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16847,7 +16847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 468.63 127 0)
+			(at 468.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17299,7 +17299,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 481.33 134.62 0)
+		(at 481.33 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17310,7 +17310,7 @@
 		(fields_autoplaced yes)
 		(uuid "b43b4312-ebfc-49d6-8835-1b220a9c1b48")
 		(property "Reference" "J15"
-			(at 482.6 133.3499 0)
+			(at 482.6 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17321,7 +17321,7 @@
 			)
 		)
 		(property "Value" "ESC - xt90"
-			(at 482.6 135.8899 0)
+			(at 482.6 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17332,7 +17332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 481.33 134.62 0)
+			(at 481.33 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17343,7 +17343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 481.33 134.62 0)
+			(at 481.33 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17354,7 +17354,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 481.33 134.62 0)
+			(at 481.33 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19353,7 +19353,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 481.33 129.54 0)
+		(at 481.33 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19364,7 +19364,7 @@
 		(fields_autoplaced yes)
 		(uuid "e75e11d8-6574-42d7-a547-ef5997aa903d")
 		(property "Reference" "J14"
-			(at 482.6 128.2699 0)
+			(at 482.6 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19375,7 +19375,7 @@
 			)
 		)
 		(property "Value" "ESC - xt90"
-			(at 482.6 130.8099 0)
+			(at 482.6 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19386,7 +19386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 481.33 129.54 0)
+			(at 481.33 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19397,7 +19397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 481.33 129.54 0)
+			(at 481.33 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19408,7 +19408,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 481.33 129.54 0)
+			(at 481.33 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
