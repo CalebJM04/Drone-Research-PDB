@@ -8514,7 +8514,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 187.96) (xy 474.98 187.96)
+			(xy 469.9 190.5) (xy 474.98 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10484,7 +10484,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 193.04) (xy 474.98 193.04)
+			(xy 469.9 195.58) (xy 474.98 195.58)
 		)
 		(stroke
 			(width 0)
@@ -11123,7 +11123,7 @@
 		(uuid "872091be-21e0-4237-98dc-e1776281a59e")
 	)
 	(label "BOOT0"
-		(at 474.98 190.5 180)
+		(at 474.98 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12079,7 +12079,7 @@
 	)
 	(symbol
 		(lib_id "sym&foot:EG1218")
-		(at 480.06 190.5 0)
+		(at 480.06 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12090,17 +12090,6 @@
 		(fields_autoplaced yes)
 		(uuid "27936627-bc32-4ce4-8eb6-27b352b63ede")
 		(property "Reference" "S1"
-			(at 483.87 189.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EG1218"
 			(at 483.87 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12111,8 +12100,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "EG1218"
+			(at 483.87 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "EG1218:SW_EG1218"
-			(at 480.06 190.5 0)
+			(at 480.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12124,7 +12124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 480.06 190.5 0)
+			(at 480.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12135,7 +12135,7 @@
 			)
 		)
 		(property "Description" "Slide Switch SPDT Through Hole"
-			(at 480.06 190.5 0)
+			(at 480.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12147,7 +12147,7 @@
 			)
 		)
 		(property "MF" "E-Switch"
-			(at 480.06 190.5 0)
+			(at 480.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12159,7 +12159,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 480.06 190.5 0)
+			(at 480.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12171,7 +12171,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 480.06 190.5 0)
+			(at 480.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12183,7 +12183,7 @@
 			)
 		)
 		(property "MP" "EG1218"
-			(at 480.06 190.5 0)
+			(at 480.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12195,7 +12195,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 480.06 190.5 0)
+			(at 480.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12207,7 +12207,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
-			(at 480.06 190.5 0)
+			(at 480.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16914,7 +16914,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 469.9 187.96 90)
+		(at 469.9 190.5 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16925,7 +16925,7 @@
 		(dnp no)
 		(uuid "b2b362e9-e236-4c43-9ad8-5425ba162167")
 		(property "Reference" "#PWR075"
-			(at 473.71 187.96 0)
+			(at 473.71 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16936,7 +16936,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 464.058 187.96 90)
+			(at 464.058 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16946,7 +16946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 469.9 187.96 0)
+			(at 469.9 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16957,7 +16957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 469.9 187.96 0)
+			(at 469.9 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16968,7 +16968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 469.9 187.96 0)
+			(at 469.9 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18285,7 +18285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 469.9 193.04 270)
+		(at 469.9 195.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18296,7 +18296,7 @@
 		(fields_autoplaced yes)
 		(uuid "d32ce0ff-eaec-4820-9dee-e0898db1d1fc")
 		(property "Reference" "#PWR074"
-			(at 463.55 193.04 0)
+			(at 463.55 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18307,7 +18307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 466.09 193.0399 90)
+			(at 466.09 195.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18318,7 +18318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 469.9 193.04 0)
+			(at 469.9 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18329,7 +18329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 469.9 193.04 0)
+			(at 469.9 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18340,7 +18340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 469.9 193.04 0)
+			(at 469.9 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
