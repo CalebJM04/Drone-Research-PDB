@@ -645,7 +645,7 @@
         "uuid": "a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
       }
     ],
-    "used_designators": "C38-39,#PWR77-79,J10,J12-15",
+    "used_designators": "Rsense1,Rfbt1,Vin1,Rfbb1,Renable1,Rcomp1,Iout1,Cvcc1,L4,Cin1,Cinx1,Css1,Cboot1,Cout_3,Cout1,Cramp1,M3-4,Cin_2-3,D20-21,#PWR80-85,Ccomp3-4,Ruv3-4,Rt1,U21,Coutx3-4",
     "variants": []
   },
   "sheets": [
@@ -672,6 +672,10 @@
     [
       "b0911c37-41be-485e-baed-d6c7fecee207",
       "USB-C PD"
+    ],
+    [
+      "9aa37ff9-47e7-4c71-b8fb-21d9fa084287",
+      "12v5a"
     ]
   ],
   "text_variables": {
