@@ -2715,7 +2715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07dec8bd-ab0a-4d72-8260-167fa8de0bd8")
-		(property "Reference" "C34"
+		(property "Reference" "C17"
 			(at 151.13 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2735,7 +2735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 154.94 49.8348 0)
 			(hide yes)
 			(show_name no)
@@ -2788,7 +2788,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "C34")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2885,7 +2885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2481e709-9aa1-4a9b-92a4-4943bb510331")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin3"
 			(at 36.83 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,7 +2907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.9852 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2949,7 +2949,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "Cin")
+					(reference "Cin3")
 					(unit 1)
 				)
 			)
@@ -2967,7 +2967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65d32428-c391-487a-a7d4-affb3b09560f")
-		(property "Reference" "U3"
+		(property "Reference" "U12"
 			(at 58.42 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2987,7 +2987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRL0006A"
+		(property "Footprint" "Dependencies:TLV62569ADRLR"
 			(at 58.42 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3043,7 +3043,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "U3")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3139,7 +3139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1807d0-34a2-4e3e-a085-b0485fe19604")
-		(property "Reference" "Rfbt"
+		(property "Reference" "Rfbt3"
 			(at 97.79 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +3161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.472 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -3203,7 +3203,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "Rfbt")
+					(reference "Rfbt3")
 					(unit 1)
 				)
 			)
@@ -3221,7 +3221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961b766f-49b6-4a5c-90cd-ffd291be0d27")
-		(property "Reference" "R39"
+		(property "Reference" "R26"
 			(at 133.35 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3243,7 +3243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 134.112 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -3291,7 +3291,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "R39")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3466,7 +3466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa1a59b2-2078-46d3-803f-43240aa920ce")
-		(property "Reference" "F5"
+		(property "Reference" "F3"
 			(at 123.19 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3486,7 +3486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 123.19 57.912 90)
 			(hide yes)
 			(show_name no)
@@ -3528,7 +3528,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "F5")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -3624,7 +3624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6a68765-216d-47d4-9aca-c19f38b8fb1a")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout3"
 			(at 114.3 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3688,7 +3688,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "Cout")
+					(reference "Cout3")
 					(unit 1)
 				)
 			)
@@ -3783,7 +3783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4815cb6-9f4d-434f-ba04-120702942bc4")
-		(property "Reference" "R44"
+		(property "Reference" "R25"
 			(at 120.65 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3805,7 +3805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.332 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -3858,7 +3858,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "R44")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3876,7 +3876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d895bc6e-0317-4a05-aeed-980b4e74d908")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb3"
 			(at 97.79 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +3898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.472 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -3940,7 +3940,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "Rfbb")
+					(reference "Rfbb3")
 					(unit 1)
 				)
 			)
@@ -4035,7 +4035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4436b36-2e65-4716-9b07-6953411c0e50")
-		(property "Reference" "L1"
+		(property "Reference" "L3"
 			(at 83.82 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4055,7 +4055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 83.82 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4097,7 +4097,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "L1")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4115,7 +4115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e654fd3d-bb00-4c39-8b53-4c523275a4ff")
-		(property "Reference" "D17"
+		(property "Reference" "D15"
 			(at 121.92 90.4874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4201,7 +4201,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "D17")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -4219,7 +4219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f67faa16-1d8d-40c9-9b93-0ce8775f09eb")
-		(property "Reference" "U17"
+		(property "Reference" "U13"
 			(at 157.0833 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4241,7 +4241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm"
 			(at 179.832 44.704 0)
 			(hide yes)
 			(show_name no)
@@ -4307,7 +4307,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "U17")
+					(reference "U13")
 					(unit 1)
 				)
 			)
