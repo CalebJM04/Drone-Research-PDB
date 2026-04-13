@@ -8101,7 +8101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ea9b55-f703-4ab1-b5f2-c252737f66ee")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR084"
 			(at 359.41 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8161,7 +8161,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR037")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -8445,7 +8445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aba0c0d-e77b-4510-b542-18ba509c53c6")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR090"
 			(at 514.35 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +8505,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR073")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -8523,7 +8523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b1b2b68-2e31-487d-bb21-8b4def1b0f5b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR080"
 			(at 317.5 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8583,7 +8583,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR033")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -9167,7 +9167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a610821-5530-4eff-a761-25638f0fc019")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR089"
 			(at 499.11 127 0)
 			(hide yes)
 			(show_name no)
@@ -9227,7 +9227,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR065")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -9653,7 +9653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c4309bc-2020-4265-9329-d7d1401dd109")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR083"
 			(at 340.36 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9713,7 +9713,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR035")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -10114,7 +10114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67234fa6-ec38-4906-bbe1-411aba1b69e2")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR087"
 			(at 467.36 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10174,7 +10174,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR066")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -10192,7 +10192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fbfad8b-7bc3-413b-afd9-388d68328d13")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR088"
 			(at 467.36 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10252,7 +10252,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR039")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -10270,7 +10270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70e1c0b8-2381-4f09-8aa2-a0faa6bc0d0a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR085"
 			(at 393.7 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -10330,7 +10330,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR038")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -10348,7 +10348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70f7b049-2e6f-4495-a34a-be3b6696681f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR081"
 			(at 326.39 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -10408,7 +10408,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR036")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -10772,7 +10772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a88b9b5-8a5c-4d5c-acb7-65d49e833a12")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR075"
 			(at 52.07 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10832,7 +10832,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR030")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -11337,7 +11337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97637e42-c8ce-40b6-96da-f9d318390080")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR077"
 			(at 81.28 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11397,7 +11397,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR031")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -11415,7 +11415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98375d31-e28f-4ec4-b084-498018c093d5")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR076"
 			(at 68.58 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -11475,7 +11475,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR04")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -11990,7 +11990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac9af750-9d24-4c80-a6c5-63795c005bbe")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR082"
 			(at 330.2 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -12050,7 +12050,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR034")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -12461,7 +12461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection"
 			(at 478.79 147.828 90)
 			(hide yes)
 			(show_name no)
@@ -12608,7 +12608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1c68d68-accc-4a28-993b-e58ecc51899c")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR086"
 			(at 458.47 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12669,7 +12669,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR064")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -13205,7 +13205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e788d65d-d2e3-4166-a847-3ceefbc97855")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR091"
 			(at 523.24 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13265,7 +13265,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR040")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -13362,7 +13362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f009f913-e135-4acb-afd5-f0e623bc59eb")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR079"
 			(at 217.17 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -13422,7 +13422,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR032")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -13772,7 +13772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce9c195-9b30-4689-89fd-fc96b3a7cd18")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR078"
 			(at 129.54 181.1381 0)
 			(hide yes)
 			(show_name no)
@@ -13832,7 +13832,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/b0911c37-41be-485e-baed-d6c7fecee207"
-					(reference "#PWR07")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)

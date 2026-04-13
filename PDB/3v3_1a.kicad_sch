@@ -2637,7 +2637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00f78ec7-0e5a-44a4-a7d9-5ccf8b41ffae")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR058"
 			(at 110.49 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2697,7 +2697,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "#PWR06")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2806,7 +2806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21429a51-0bb6-471a-b192-def838340754")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR063"
 			(at 172.72 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2867,7 +2867,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "#PWR059")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3061,7 +3061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66fd4938-747a-4f35-8eb9-83a1ea94e675")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 154.94 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3121,7 +3121,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3243,7 +3243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection"
 			(at 134.112 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -3309,7 +3309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7f75e76-fa62-4fe6-9fd2-3a6f2ab7b368")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR060"
 			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3369,7 +3369,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "#PWR09")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3387,7 +3387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8e80c28-6f3e-41f0-a55c-2d66027140f9")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3448,7 +3448,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3546,7 +3546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0087e81-b1f1-4b0f-9fbc-f9a284af5244")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR057"
 			(at 33.02 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3606,7 +3606,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "#PWR05")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3706,7 +3706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8c5c36c-5bb0-4125-a494-33a9f2a5b1ff")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR059"
 			(at 118.11 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3766,7 +3766,7 @@
 		(instances
 			(project "PDB"
 				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd/eaf0840f-875c-44d4-b065-16bc98c2c6be"
-					(reference "#PWR071")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)

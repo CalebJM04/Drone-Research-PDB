@@ -1035,7 +1035,7 @@
         "uuid": "a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
       }
     ],
-    "used_designators": "",
+    "used_designators": "S1,Ruv1-6,Rt1-3,Rsense1-3,Rfbt1-5,Rfbb1-5,Cout_1-2,Q1-8,TP1-11,Renable1-3,Rcomp1-3,J1-14,Rramp1,R1-46,Cvcc1-4,D1-23,F1-6,Cboot1-4,Cout1-5,Css1-3,Cinx1-4,Cramp1-3,M1-4,Rpgood1,Cin_1-2,U1-22,Coutx1-5,#PWR1-100,Ccomp1-6,C1-40,L1-7,Cin1-5",
     "variants": []
   },
   "sheets": [
