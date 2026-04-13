@@ -16165,7 +16165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMCS1108A4UQDRQ1:SOIC127P599X175-8N"
+		(property "Footprint" "Dependencies:SOIC127P599X175-8N"
 			(at 365.76 64.77 0)
 			(hide yes)
 			(show_name no)

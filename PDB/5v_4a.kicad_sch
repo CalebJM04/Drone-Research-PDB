@@ -5536,7 +5536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "foot:LM76005RNPR"
+		(property "Footprint" "Dependencies:LM76005RNPR"
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)

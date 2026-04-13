@@ -9914,7 +9914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STL6P3LLH6:TRANS_STL6P3LLH6"
+		(property "Footprint" "Dependencies:CSD19502Q5B"
 			(at 416.56 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12321,7 +12321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STL6P3LLH6:TRANS_STL6P3LLH6"
+		(property "Footprint" "Dependencies:CSD19502Q5B"
 			(at 438.15 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13541,7 +13541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dependencies:RNP0030A"
+		(property "Footprint" "Dependencies:LM76005RNPR"
 			(at 107.95 180.34 0)
 			(hide yes)
 			(show_name no)

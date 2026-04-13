@@ -7592,7 +7592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "foot:LM5118MH"
+		(property "Footprint" "Dependencies:LM5118MH"
 			(at 144.78 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8188,7 +8188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSD19502Q5B:TRANS_CSD19502Q5B"
+		(property "Footprint" "Dependencies:CSD19502Q5B"
 			(at 208.28 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10545,7 +10545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "foot:CSD19502Q5B"
+		(property "Footprint" "Dependencies:CSD19502Q5B"
 			(at 190.5 62.23 0)
 			(hide yes)
 			(show_name no)
