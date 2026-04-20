@@ -3634,6 +3634,12 @@
 		(uuid "1b2dd98e-e56d-4422-b25f-e7e8586884a4")
 	)
 	(junction
+		(at 109.22 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e117ec9-6be3-49e3-97f1-dd1017659ae7")
+	)
+	(junction
 		(at 170.18 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3878,6 +3884,16 @@
 			(type default)
 		)
 		(uuid "0b2df044-f4d0-4d10-b614-ddad463b0bf4")
+	)
+	(wire
+		(pts
+			(xy 109.22 74.93) (xy 113.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c291148-e7c4-4308-af62-44ad9b416248")
 	)
 	(wire
 		(pts
@@ -4311,7 +4327,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 74.93) (xy 113.03 74.93)
+			(xy 105.41 74.93) (xy 109.22 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4864,7 +4880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 108.2548 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5099,7 +5115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 89.662 90)
 			(hide yes)
 			(show_name no)
@@ -5416,7 +5432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 97.282 90)
 			(hide yes)
 			(show_name no)
@@ -5496,7 +5512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.15 75.8952 0)
 			(hide yes)
 			(show_name no)
@@ -5811,7 +5827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 162.56 103.632 90)
 			(hide yes)
 			(show_name no)
@@ -5890,7 +5906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 74.422 90)
 			(hide yes)
 			(show_name no)
@@ -6720,7 +6736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 82.042 90)
 			(hide yes)
 			(show_name no)
