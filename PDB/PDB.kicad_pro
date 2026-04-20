@@ -1035,7 +1035,7 @@
         "uuid": "a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
       }
     ],
-    "used_designators": "S1,Ruv1-6,Rt1-3,Rsense1-3,Rfbt1-5,Rfbb1-5,Cout_1-2,Q1-8,TP1-11,Renable1-3,Rcomp1-3,J1-14,Rramp1,R1-46,Cvcc1-4,D1-23,F1-6,Cboot1-4,Cout1-5,Css1-3,Cinx1-4,Cramp1-3,M1-4,Rpgood1,Cin_1-2,U1-22,Coutx1-5,#PWR1-100,Ccomp1-6,C1-40,L1-7,Cin1-5",
+    "used_designators": "Q6,Q9,#PWR66-67,#PWR69,#PWR101-104,C18,C41-43,R47-53,IC1,J15",
     "variants": []
   },
   "sheets": [
@@ -1057,7 +1057,7 @@
     ],
     [
       "73280642-a7d9-4144-aaf4-80e2ae791ad9",
-      "24V@30W"
+      "48V@.8A"
     ],
     [
       "b0911c37-41be-485e-baed-d6c7fecee207",
@@ -1066,6 +1066,10 @@
     [
       "9aa37ff9-47e7-4c71-b8fb-21d9fa084287",
       "12v5a"
+    ],
+    [
+      "0ca8fca8-7872-4a37-82ca-cc32f4883a53",
+      "PoE+"
     ]
   ],
   "text_variables": {

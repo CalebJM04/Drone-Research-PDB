@@ -7295,7 +7295,7 @@
 	)
 	(text "Out to RJ45\n"
 		(exclude_from_sim no)
-		(at 495.554 89.408 0)
+		(at 541.02 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23177,6 +23177,52 @@
 		)
 	)
 	(sheet
+		(at 498.475 85.09)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0ca8fca8-7872-4a37-82ca-cc32f4883a53")
+		(property "Sheetname" "PoE+"
+			(at 498.475 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PoE+.kicad_sch"
+			(at 498.475 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 466.09 85.09)
 		(size 20.32 8.89)
 		(exclude_from_sim no)
@@ -23192,7 +23238,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "73280642-a7d9-4144-aaf4-80e2ae791ad9")
-		(property "Sheetname" "24V@30W"
+		(property "Sheetname" "48V@.8A"
 			(at 466.09 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23224,7 +23270,7 @@
 				(justify left)
 			)
 		)
-		(pin "24V@1.5A" output
+		(pin "48V@.8A" output
 			(at 486.41 87.63 0)
 			(uuid "fa3aa4ec-73c1-43ca-b317-c77785340201")
 			(effects

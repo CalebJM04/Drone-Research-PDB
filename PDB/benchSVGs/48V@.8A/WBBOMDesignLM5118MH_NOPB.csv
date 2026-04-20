@@ -1,0 +1,27 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Coutx,MuRata,GRM21BR72A474KA73L,1,0.13,6.75,Cap: 470 nF  Total Derated Cap: 250 nF  VDC: 100 V  ESR: 1 mΩ  Package: 0805  
+Cboot,AVX,08053C104JAZ2A,1,0.07,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 0 Ω  Package: 0805  
+L1,Wurth Elektronik,784373170680,1,3.43,368.58,L: 68 µH  DCR: 75 mΩ  IDC: 5.9 A  
+Cin,Panasonic,EEHZA1K330P,1,1.34,159.9,Cap: 33 µF  Total Derated Cap: 33 µF  VDC: 80 V  ESR: 36 mΩ  Package: 10x10.2  
+Renable,Vishay-Dale,CRCW04021M00FKED,1,0.01,3,Resistance: 1 MΩ  Tolerance: 1.0%  Power: 63 mW  
+Ruv1,Vishay-Dale,CRCW040264K9FKED,1,0.01,3,Resistance: 64.9 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cramp,Samsung Electro-Mechanics,CL21C222JBFNNNE,1,0.02,6.75,Cap: 2.2 nF  Total Derated Cap: 2.2 nF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Cinx,TDK,C2012X7R2A104K125AA,1,0.03,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 100 V  ESR: 20.73 mΩ  Package: 0805  
+Rramp,Yageo,RC0201FR-0736K5L,1,0.01,2.08,Resistance: 36.5 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Rt,Yageo,RC0201FR-0718K7L,1,0.01,2.08,Resistance: 18.7 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Cvcc,TDK,C2012X7S2A105K125AB,1,0.11854,6.75,Cap: 1 µF  Total Derated Cap: 1 µF  VDC: 100 V  ESR: 8.04 mΩ  Package: 0805  
+M1,Texas Instruments,CSD19502Q5B,1,0.74,9,VdsMax: 80 V  IdsMax: 100 Amps  
+Rcomp,Yageo,RC0201FR-0710KL,1,0.01,2.08,Resistance: 10 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Ccomp,Samsung Electro-Mechanics,CL21C222JBFNNNE,1,0.02,6.75,Cap: 2.2 nF  Total Derated Cap: 2.2 nF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Cout,Panasonic,100SXV15M,1,1.95,106.09,Cap: 15 µF  Total Derated Cap: 15 µF  VDC: 100 V  ESR: 40 mΩ  Package: 8x11.9  
+U1,Texas Instruments,LM5118MH/NOPB,1,3.178,71.4,
+Ccomp2,AVX,08053C104JAZ2A,1,0.07,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 0 Ω  Package: 0805  
+Rsense,Stackpole Electronics Inc,CSR1206FK30L0,1,0.1,10.92,Resistance: 30 mΩ  Tolerance: 1.0%  Power: 500 mW  
+Rfbb,Vishay-Dale,CRCW04021K00FKED,1,0.01,3,Resistance: 1 kΩ  Tolerance: 1.0%  Power: 63 mW  
+M2,Texas Instruments,CSD19537Q3,1,0.35,18.49,VdsMax: 100 V  IdsMax: 50 Amps  
+Css,TDK,C2012C0G1H223K125AA,1,0.08,6.75,Cap: 22 nF  Total Derated Cap: 22 nF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Coutx2,MuRata,GRM21BR72A474KA73L,1,0.13,6.75,Cap: 470 nF  Total Derated Cap: 250 nF  VDC: 100 V  ESR: 1 mΩ  Package: 0805  
+Ruv2,Yageo,RC0201FR-0710KL,1,0.01,2.08,Resistance: 10 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Rfbt,Vishay-Dale,CRCW040238K3FKED,1,0.01,3,Resistance: 38.3 kΩ  Tolerance: 1.0%  Power: 63 mW  
+D1,SMC Diode Solutions,SK220ATR,1,0.06,37.34,Type: Schottky  VRRM: 200 V  Io: 2 A  
+D2,SMC Diode Solutions,SBRD10200TR,1,0.18,101.71,Type: Schottky  VRRM: 200 V  Io: 10 A  
