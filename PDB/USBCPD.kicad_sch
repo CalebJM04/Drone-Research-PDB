@@ -6861,16 +6861,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 160.02) (xy 125.73 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8a847b-dc7d-4520-92d1-c4f6635b228a")
-	)
-	(wire
-		(pts
 			(xy 452.12 160.02) (xy 452.12 198.12)
 		)
 		(stroke
@@ -12461,7 +12451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3_KelvinConnection"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T2.66mm"
 			(at 478.79 147.828 90)
 			(hide yes)
 			(show_name no)
