@@ -492,14 +492,13 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 5
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -1083,7 +1082,7 @@
         "uuid": "a9cf05c4-aac5-4cf1-b700-1d3045f8dfbd"
       }
     ],
-    "used_designators": "#PWR1-105,C1-86,Cout1-5,Cin_1-2,Cboot1-4,Ccomp1-6,J1-14,Cin1-5,Rfbt1-5,Cinx1-4,Cout_1-2,Rcomp1-3,Coutx1-5,Cramp1-3,Css1-3,Cvcc1-4,D1-25,Rramp1,F1-7,IC1,L1-7,M1-4,Q1-13,R1-78,Renable1-3,Rfbb1-5,Rpgood1,TP1-11,Rsense1-3,Rt1-3,S1,Ruv1-6,U1-23",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
