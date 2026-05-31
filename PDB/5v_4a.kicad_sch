@@ -1314,30 +1314,28 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U12"
-				(at 2.1433 15.24 0)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "INA228"
-				(at 2.1433 12.7 0)
+				(at 3.81 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-				(at 24.892 22.606 0)
+				(at 20.32 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1348,7 +1346,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina228.pdf"
-				(at 7.62 24.638 0)
+				(at 8.89 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1359,7 +1357,7 @@
 				)
 			)
 			(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)"
-				(at -1.27 27.178 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1550,7 +1548,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -6.35 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "Vin-"
 						(effects
@@ -1568,7 +1566,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -1.27 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "Vin+"
 						(effects
@@ -5536,7 +5534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dependencies:LM76005RNPR"
+		(property "Footprint" "LM76005RNPR:QFN50P600X400X80-31N"
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)

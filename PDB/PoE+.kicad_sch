@@ -5986,7 +5986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "foot:TPS23861PWR"
+		(property "Footprint" "SOP65P640X120-28N"
 			(at 101.6 169.85 0)
 			(hide yes)
 			(show_name no)
@@ -6206,7 +6206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "foot:CSD19538Q3AT"
+		(property "Footprint" "CSD19538Q3AT"
 			(at 154.94 181.28 0)
 			(hide yes)
 			(show_name no)

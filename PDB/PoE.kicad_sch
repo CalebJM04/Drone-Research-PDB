@@ -1480,30 +1480,28 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U12"
-				(at 2.1433 15.24 0)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "INA228"
-				(at 2.1433 12.7 0)
+				(at 3.81 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-				(at 24.892 22.606 0)
+				(at 20.32 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1514,7 +1512,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina228.pdf"
-				(at 7.62 24.638 0)
+				(at 8.89 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1525,7 +1523,7 @@
 				)
 			)
 			(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)"
-				(at -1.27 27.178 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1716,7 +1714,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -6.35 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "Vin-"
 						(effects
@@ -1734,7 +1732,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -1.27 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "Vin+"
 						(effects
@@ -3220,27 +3218,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U5"
-				(at 0 27.94 0)
+			(property "Reference" "U"
+				(at -5.3668 25.1042 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "LM5118MH"
-				(at 0 25.4 0)
+				(at -5.2916 -33.734 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "foot:LM5118MH"
+			(property "Footprint" "LM5118MH:SOP65P640X110-21N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3409,8 +3409,8 @@
 			)
 			(symbol "LM5118MH_0_0"
 				(rectangle
-					(start -12.7 22.86)
-					(end 12.7 -30.48)
+					(start -12.7 -30.48)
+					(end 12.7 22.86)
 					(stroke
 						(width 0.4064)
 						(type default)
@@ -3420,7 +3420,7 @@
 					)
 				)
 				(pin power_in line
-					(at -17.78 17.78 0)
+					(at -17.78 12.7 0)
 					(length 5.08)
 					(name "VIN"
 						(effects
@@ -3438,7 +3438,7 @@
 					)
 				)
 				(pin passive line
-					(at -17.78 13.97 0)
+					(at -17.78 -15.24 0)
 					(length 5.08)
 					(name "UVLO"
 						(effects
@@ -3456,7 +3456,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 10.16 0)
+					(at -17.78 -2.54 0)
 					(length 5.08)
 					(name "RT"
 						(effects
@@ -3474,7 +3474,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 6.35 0)
+					(at -17.78 7.62 0)
 					(length 5.08)
 					(name "EN"
 						(effects
@@ -3492,7 +3492,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 2.54 0)
+					(at -17.78 -12.7 0)
 					(length 5.08)
 					(name "RAMP"
 						(effects
@@ -3510,7 +3510,7 @@
 					)
 				)
 				(pin passive line
-					(at -17.78 -27.94 0)
+					(at -17.78 -25.4 0)
 					(length 5.08)
 					(name "AGND"
 						(effects
@@ -3528,7 +3528,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -1.27 0)
+					(at -17.78 -5.08 0)
 					(length 5.08)
 					(name "SS"
 						(effects
@@ -3546,7 +3546,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -5.08 0)
+					(at 17.78 17.78 180)
 					(length 5.08)
 					(name "FB"
 						(effects
@@ -3564,7 +3564,7 @@
 					)
 				)
 				(pin output line
-					(at -17.78 -8.89 0)
+					(at 17.78 10.16 180)
 					(length 5.08)
 					(name "COMP"
 						(effects
@@ -3582,7 +3582,7 @@
 					)
 				)
 				(pin output line
-					(at -17.78 -12.7 0)
+					(at 17.78 7.62 180)
 					(length 5.08)
 					(name "VOUT"
 						(effects
@@ -3600,7 +3600,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -16.51 0)
+					(at -17.78 -10.16 0)
 					(length 5.08)
 					(name "SYNC"
 						(effects
@@ -3618,7 +3618,7 @@
 					)
 				)
 				(pin input line
-					(at 17.78 -7.62 180)
+					(at -17.78 -7.62 0)
 					(length 5.08)
 					(name "CS"
 						(effects
@@ -3636,7 +3636,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -22.86 0)
+					(at -17.78 -17.78 0)
 					(length 5.08)
 					(name "CSG"
 						(effects
@@ -3654,7 +3654,7 @@
 					)
 				)
 				(pin passive line
-					(at -17.78 -25.4 0)
+					(at -17.78 -22.86 0)
 					(length 5.08)
 					(name "PGND"
 						(effects
@@ -3672,7 +3672,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -2.54 180)
+					(at 17.78 15.24 180)
 					(length 5.08)
 					(name "LO"
 						(effects
@@ -3690,7 +3690,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 17.78 180)
+					(at -17.78 17.78 0)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -3708,7 +3708,7 @@
 					)
 				)
 				(pin power_in line
-					(at -17.78 -20.32 0)
+					(at -17.78 15.24 0)
 					(length 5.08)
 					(name "VCCX"
 						(effects
@@ -3726,7 +3726,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 2.54 180)
+					(at -17.78 2.54 0)
 					(length 5.08)
 					(name "HB"
 						(effects
@@ -3744,7 +3744,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 7.62 180)
+					(at 17.78 12.7 180)
 					(length 5.08)
 					(name "HO"
 						(effects
@@ -3762,7 +3762,7 @@
 					)
 				)
 				(pin input line
-					(at 17.78 12.7 180)
+					(at -17.78 0 0)
 					(length 5.08)
 					(name "HS"
 						(effects
@@ -6183,7 +6183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dependencies:LM5118MH"
+		(property "Footprint" "LM5118MH:SOP65P640X110-21N"
 			(at 144.78 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8492,7 +8492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm"
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 			(at 226.314 13.208 0)
 			(hide yes)
 			(show_name no)
@@ -8598,7 +8598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Dependencies:CSD19502Q5B"
+		(property "Footprint" "CSD19502Q5B:TRANS_CSD19502Q5B"
 			(at 190.5 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8811,7 +8811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "foot:CSD19537Q3"
+		(property "Footprint" "CSD19537Q3:TRANS_CSD19537Q3"
 			(at 205.74 93.98 0)
 			(hide yes)
 			(show_name no)

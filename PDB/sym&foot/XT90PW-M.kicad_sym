@@ -341,7 +341,7 @@
 						)
 					)
 				)
-				(number "N"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -359,7 +359,7 @@
 						)
 					)
 				)
-				(number "P"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
