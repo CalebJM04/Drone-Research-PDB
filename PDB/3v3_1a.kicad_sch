@@ -3318,14 +3318,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V@1A"
-			(at 135.89 92.71 0)
+		(property "Value" "+3.3V"
+			(at 138.43 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
