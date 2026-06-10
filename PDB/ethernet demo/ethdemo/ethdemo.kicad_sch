@@ -10061,12 +10061,6 @@
 		(uuid "48c97244-5ce2-4f94-8213-2d309a2566c9")
 	)
 	(junction
-		(at 497.84 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "503c8ba3-c39a-4d3f-91b6-007b985c3d9b")
-	)
-	(junction
 		(at 402.59 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10831,16 +10825,6 @@
 			(type default)
 		)
 		(uuid "0785daa0-f6e1-48c3-99a9-dcc0ebbd45db")
-	)
-	(wire
-		(pts
-			(xy 436.88 218.44) (xy 453.39 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08190eb1-73a9-4ffb-a1c4-13d563770eec")
 	)
 	(wire
 		(pts
@@ -12304,7 +12288,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 218.44) (xy 431.8 218.44)
+			(xy 417.83 218.44) (xy 453.39 218.44)
 		)
 		(stroke
 			(width 0)
@@ -13314,16 +13298,6 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 245.11) (xy 497.84 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6686622-fdc2-46e9-b131-8006021005fe")
-	)
-	(wire
-		(pts
 			(xy 328.93 199.39) (xy 337.82 199.39)
 		)
 		(stroke
@@ -13944,6 +13918,16 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 246.38) (xy 497.84 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca322e84-736e-4835-8e8c-a35c1ec1cb6a")
+	)
+	(wire
+		(pts
 			(xy 396.24 266.7) (xy 396.24 276.86)
 		)
 		(stroke
@@ -14411,16 +14395,6 @@
 			(type default)
 		)
 		(uuid "e65b03f6-fa81-40b5-b9c6-2cb46553bc04")
-	)
-	(wire
-		(pts
-			(xy 497.84 246.38) (xy 497.84 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e74ddfef-2d5a-48a1-ac42-c4a67d4e0e91")
 	)
 	(wire
 		(pts
@@ -24387,7 +24361,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 492.76 297.18 270)
+		(at 492.76 297.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24397,7 +24371,7 @@
 		(dnp no)
 		(uuid "9d6f4d5f-d767-4ccf-8d55-1416475a8e04")
 		(property "Reference" "R47"
-			(at 492.76 295.656 90)
+			(at 492.76 298.704 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24407,7 +24381,7 @@
 			)
 		)
 		(property "Value" "1kOhm"
-			(at 492.76 298.958 90)
+			(at 492.76 295.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27021,85 +26995,6 @@
 			(project "ethdemo"
 				(path "/7dabef91-f4a1-42f5-98eb-8cd98e55ead9"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 434.34 218.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb0e63ab-aa44-4b6f-bb9e-d01bcac08643")
-		(property "Reference" "R30"
-			(at 434.34 214.884 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "Interupt"
-			(at 434.34 216.662 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 434.34 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 434.34 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Active low to MCU to express lost link"
-			(at 434.34 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b00c16a8-8162-400e-ba20-52782df252f0")
-		)
-		(pin "1"
-			(uuid "ef1efdac-3190-49d2-abbb-06e3f2e32e35")
-		)
-		(instances
-			(project "ethdemo"
-				(path "/7dabef91-f4a1-42f5-98eb-8cd98e55ead9"
-					(reference "R30")
 					(unit 1)
 				)
 			)
