@@ -696,6 +696,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -746,7 +752,7 @@
         "uuid": "7dabef91-f4a1-42f5-98eb-8cd98e55ead9"
       }
     ],
-    "used_designators": "R32,#PWR61-62",
+    "used_designators": "CR1",
     "variants": []
   },
   "sheets": [
