@@ -14866,6 +14866,16 @@
 		)
 		(uuid "0e2c6296-8d7f-4ac6-a036-10767f2f6f7e")
 	)
+	(label "D1-"
+		(at 414.02 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e5aa4bc-55fa-46b1-b4b9-87d93b08ff62")
+	)
 	(label "P2LED1"
 		(at 394.97 195.58 180)
 		(effects
@@ -14975,6 +14985,16 @@
 			(justify right bottom)
 		)
 		(uuid "2d9fb26a-e471-49fb-930c-d9abc73e76cb")
+	)
+	(label "D2-"
+		(at 419.1 289.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "368806f1-dcc1-4dab-bc15-96a3f645d9cb")
 	)
 	(label "P2LED0"
 		(at 394.97 193.04 180)
@@ -15126,6 +15146,16 @@
 		)
 		(uuid "634001aa-421d-4675-be8b-0ee972ec528e")
 	)
+	(label "TX2+"
+		(at 391.16 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "649a6cbe-55ac-43f3-84e6-743ae48914fc")
+	)
 	(label "PA3"
 		(at 64.77 52.07 90)
 		(effects
@@ -15145,6 +15175,16 @@
 			(justify right bottom)
 		)
 		(uuid "6e8b0ff7-fbdd-48d4-9b2e-bf1bb4f175ed")
+	)
+	(label "RX2+"
+		(at 391.16 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "716c907c-48bf-4fe0-a5cc-03111a45b283")
 	)
 	(label "D-"
 		(at 85.09 52.07 90)
@@ -15185,6 +15225,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ab981d5-e272-4244-8b23-f82e663d4e84")
+	)
+	(label "D2+"
+		(at 419.1 284.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b24be79-2e91-40e3-bf49-d318a8556b98")
 	)
 	(label "PC12"
 		(at 173.99 52.07 90)
@@ -15396,6 +15446,16 @@
 		)
 		(uuid "d5b4efad-cd06-445e-ace3-e99bf434273b")
 	)
+	(label "TX2-"
+		(at 391.16 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcd693f4-d828-4bea-bcd2-d09a6ee1b85c")
+	)
 	(label "Data"
 		(at 30.48 365.76 0)
 		(effects
@@ -15476,6 +15536,16 @@
 		)
 		(uuid "f05d0791-3e2c-426c-998d-a1ad05dc2939")
 	)
+	(label "RX2-"
+		(at 391.16 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f61e7a6b-45bb-4c23-a859-7dc7329dd938")
+	)
 	(label "RXD1"
 		(at 156.21 52.07 90)
 		(effects
@@ -15485,6 +15555,16 @@
 			(justify left bottom)
 		)
 		(uuid "f8fda593-5c4f-4896-8c1c-9cb640b33b73")
+	)
+	(label "D1+"
+		(at 412.75 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd4c8a4a-6017-40cc-913d-520cdae4d678")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -28937,7 +29017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 323.85 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -28959,7 +29039,7 @@
 				)
 			)
 		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "DIODE STANDARD 1000V 1A DO214AC"
 			(at 323.85 232.41 0)
 			(hide yes)
 			(show_name no)
