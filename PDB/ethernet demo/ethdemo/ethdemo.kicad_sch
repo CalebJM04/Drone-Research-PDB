@@ -14936,6 +14936,16 @@
 		)
 		(uuid "1d23930c-fd62-4a36-b90e-3d83f41507f5")
 	)
+	(label "RX+"
+		(at 321.31 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21d651c1-d1a6-4465-9ec6-99ba9de1c81b")
+	)
 	(label "P1LED1"
 		(at 427.99 307.34 0)
 		(effects
@@ -14996,6 +15006,16 @@
 		)
 		(uuid "368806f1-dcc1-4dab-bc15-96a3f645d9cb")
 	)
+	(label "RX-"
+		(at 321.31 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "385edfa5-2f4a-49f8-81fc-43f3ac4bd2da")
+	)
 	(label "P2LED0"
 		(at 394.97 193.04 180)
 		(effects
@@ -15015,16 +15035,6 @@
 			(justify left bottom)
 		)
 		(uuid "44bc2fed-a639-42eb-9370-bf9a88a70010")
-	)
-	(label "TXD1"
-		(at 133.35 52.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4799da4b-8e40-4e31-b465-1910201a589c")
 	)
 	(label "Clock"
 		(at 115.57 52.07 90)
@@ -15076,7 +15086,7 @@
 		)
 		(uuid "543c9fe7-8241-4112-a244-87f50a851031")
 	)
-	(label "TXD1"
+	(label "TX+"
 		(at 440.69 236.22 180)
 		(effects
 			(font
@@ -15155,6 +15165,16 @@
 			(justify left bottom)
 		)
 		(uuid "649a6cbe-55ac-43f3-84e6-743ae48914fc")
+	)
+	(label "TX+"
+		(at 133.35 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6604a975-956f-44f1-ae2e-dabc9cda79f2")
 	)
 	(label "PA3"
 		(at 64.77 52.07 90)
@@ -15256,7 +15276,7 @@
 		)
 		(uuid "94c8984b-725c-4d7e-b082-9465447add65")
 	)
-	(label "TXD0"
+	(label "TX-"
 		(at 440.69 233.68 180)
 		(effects
 			(font
@@ -15346,7 +15366,7 @@
 		)
 		(uuid "a4af2cb1-9f26-49ae-8371-c3008f17a8ac")
 	)
-	(label "TXD0"
+	(label "TX-"
 		(at 130.81 52.07 90)
 		(effects
 			(font
@@ -15354,9 +15374,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a4ea659a-68ad-4e25-8f36-dba5d4262d65")
+		(uuid "b401bfaf-805a-4da9-837b-fa0a38632f45")
 	)
-	(label "RXD0"
+	(label "RX-"
 		(at 153.67 52.07 90)
 		(effects
 			(font
@@ -15396,16 +15416,6 @@
 		)
 		(uuid "bf4e8b56-9106-4332-ba1c-203cea92fa92")
 	)
-	(label "RXD0"
-		(at 321.31 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6987f05-8ba0-4879-b6b6-430e85250e2d")
-	)
 	(label "TX_EN"
 		(at 447.04 243.84 180)
 		(effects
@@ -15435,16 +15445,6 @@
 			(justify right bottom)
 		)
 		(uuid "c9d67a68-3605-4ea6-b8e8-64b5c50d6b22")
-	)
-	(label "RXD1"
-		(at 321.31 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5b4efad-cd06-445e-ace3-e99bf434273b")
 	)
 	(label "TX2-"
 		(at 391.16 254 0)
@@ -15546,7 +15546,7 @@
 		)
 		(uuid "f61e7a6b-45bb-4c23-a859-7dc7329dd938")
 	)
-	(label "RXD1"
+	(label "RX+"
 		(at 156.21 52.07 90)
 		(effects
 			(font
