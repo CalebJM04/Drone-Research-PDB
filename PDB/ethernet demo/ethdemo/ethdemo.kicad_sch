@@ -452,8 +452,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
+			(property "Reference" "Y1"
+				(at -3.302 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -462,8 +462,8 @@
 					)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "25MHz"
+				(at 0 4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -472,7 +472,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -494,7 +494,7 @@
 					)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "ECS-250-10-30B-CKM-TR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -607,6 +607,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
@@ -617,7 +635,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12458,6 +12476,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 88.9) (xy 306.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfae249-fa6a-416f-805d-e2846132fcb9")
+	)
+	(wire
+		(pts
 			(xy 494.03 256.54) (xy 473.71 256.54)
 		)
 		(stroke
@@ -13858,6 +13886,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 81.28) (xy 313.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ca923f-43d9-425c-8254-c498dbba51a7")
+	)
+	(wire
+		(pts
 			(xy 71.12 378.46) (xy 88.9 378.46)
 		)
 		(stroke
@@ -14245,16 +14283,6 @@
 			(type default)
 		)
 		(uuid "dce78c81-9dd6-4185-9bee-ae8dc350a385")
-	)
-	(wire
-		(pts
-			(xy 313.69 81.28) (xy 309.88 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd141ae4-c577-4510-a9c6-f12b8c2813df")
 	)
 	(wire
 		(pts
@@ -20268,6 +20296,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 306.07 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470adb16-9ad2-4651-81a2-dc2c7cb3b3f8")
+		(property "Reference" "#PWR01"
+			(at 306.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6403b33-fad7-4b10-aa9f-e905852d12f7")
+		)
+		(instances
+			(project "ethdemo"
+				(path "/7dabef91-f4a1-42f5-98eb-8cd98e55ead9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 402.59 293.37 0)
 		(unit 1)
@@ -25807,7 +25913,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 306.07 81.28 180)
+		(at 306.07 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25817,7 +25923,7 @@
 		(dnp no)
 		(uuid "ba9826ee-a042-41ab-ab7e-3ee2be928b0f")
 		(property "Reference" "Y1"
-			(at 309.372 79.248 0)
+			(at 302.768 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25827,7 +25933,7 @@
 			)
 		)
 		(property "Value" "25MHz"
-			(at 306.07 85.598 0)
+			(at 306.07 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25869,11 +25975,14 @@
 				)
 			)
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "9571b138-4ebf-4cdb-8100-eef79b6faeea")
 		)
 		(pin "1"
 			(uuid "cd2fc1fa-095f-4037-8a1d-db5fa3dff32a")
+		)
+		(pin "2"
+			(uuid "e9e4cf1b-424f-4b19-882c-5b038c7d8fd2")
 		)
 		(instances
 			(project "ethdemo"
