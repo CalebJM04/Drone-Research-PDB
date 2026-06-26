@@ -5994,6 +5994,370 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sym&foot:2171790001"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 20.32 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "2171790001"
+				(at 20.32 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "2171790001_MOL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2171790001?display=pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "2171790001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "2171790001_MOL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2171790001_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -17.78)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -17.78) (xy 33.02 -17.78)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -17.78) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1/B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4/B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 7.62)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1/A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4/A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 40.64 -12.7 180)
+					(length 7.62)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 40.64 -10.16 180)
+					(length 7.62)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sym&foot:CSD19538Q3AT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10159,7 +10523,7 @@
 		)
 		(uuid "a535c7c2-80fc-485d-9dd9-b54b1cdd30e4")
 	)
-	(text "Magnetics and Bob Smith termination\ninternal to magjacks"
+	(text "Magnetics internal to magjacks"
 		(exclude_from_sim no)
 		(at 481.33 325.374 0)
 		(effects
@@ -10290,6 +10654,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1becae3f-63af-410f-b8aa-14534a59f861")
+	)
+	(junction
+		(at 110.49 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20e49509-9181-4114-a916-559784b61e78")
 	)
 	(junction
 		(at 109.22 382.27)
@@ -11365,6 +11735,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 219.71) (xy 66.04 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ae4772-4da2-4baa-ad87-7a6b3634a5a7")
+	)
+	(wire
+		(pts
 			(xy 501.65 254) (xy 504.19 254)
 		)
 		(stroke
@@ -11705,6 +12085,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 217.17) (xy 113.03 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2973d383-3168-4450-8bd3-727c62dbe07e")
+	)
+	(wire
+		(pts
 			(xy 99.06 367.03) (xy 101.6 367.03)
 		)
 		(stroke
@@ -11965,6 +12355,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 217.17) (xy 110.49 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fcf7a1-097e-4950-8d9e-428bad7167e8")
+	)
+	(wire
+		(pts
 			(xy 501.65 312.42) (xy 501.65 314.96)
 		)
 		(stroke
@@ -12165,6 +12565,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 217.17) (xy 110.49 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a41781e-59b1-4aaa-a240-cce9e0a51015")
+	)
+	(wire
+		(pts
 			(xy 407.67 279.4) (xy 407.67 290.83)
 		)
 		(stroke
@@ -12292,6 +12702,16 @@
 			(type default)
 		)
 		(uuid "5080fc96-06b2-4fec-bf2f-1365360dcd36")
+	)
+	(wire
+		(pts
+			(xy 106.68 219.71) (xy 110.49 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a0f3b9-118b-42a2-9056-d0a13b36a71f")
 	)
 	(wire
 		(pts
@@ -13945,6 +14365,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 222.25) (xy 66.04 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a12eae-c4e3-4da1-a9c4-1d250889d710")
+	)
+	(wire
+		(pts
 			(xy 113.03 154.94) (xy 115.57 154.94)
 		)
 		(stroke
@@ -15223,6 +15653,16 @@
 		)
 		(uuid "ff7ffee8-e4cb-4a92-9479-8172938d2fc1")
 	)
+	(label "D-"
+		(at 62.23 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00789dfd-94a9-47c3-8a59-1139d3701feb")
+	)
 	(label "PC10"
 		(at 168.91 52.07 90)
 		(effects
@@ -15432,6 +15872,16 @@
 			(justify left bottom)
 		)
 		(uuid "3947a6f9-3c7d-4a2a-ad2d-a6dc6c57a545")
+	)
+	(label "D+"
+		(at 62.23 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "394db65f-7f88-4f52-ad16-65fae41c38da")
 	)
 	(label "P2LED0"
 		(at 394.97 193.04 180)
@@ -26323,6 +26773,118 @@
 		)
 	)
 	(symbol
+		(lib_id "sym&foot:2171790001")
+		(at 66.04 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0418095-5b23-489a-8c76-bc8ae57e86a8")
+		(property "Reference" "J4"
+			(at 86.36 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "2171790001"
+			(at 86.36 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "2171790001_MOL"
+			(at 66.04 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2171790001?display=pdf"
+			(at 66.04 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A8"
+			(uuid "8b0d4e70-c355-4ebf-8174-7d0241f9ca0c")
+		)
+		(pin "B6"
+			(uuid "76e735fc-26e2-4f50-94a4-92f408eb2411")
+		)
+		(pin "B8"
+			(uuid "e7eaa96f-2405-43f5-9e95-94ab394dcd10")
+		)
+		(pin "A4/B9"
+			(uuid "a87bc446-3202-4a63-8baf-9b27a2b1720e")
+		)
+		(pin "A1/B12"
+			(uuid "e6965421-6aaf-4fe8-85d0-37949584c55b")
+		)
+		(pin "A6"
+			(uuid "15742225-6cbf-4d2e-b4f3-e2dc075a56db")
+		)
+		(pin "B7"
+			(uuid "ae2e87af-57c7-43e9-91a1-1d11117f0460")
+		)
+		(pin "B4/A9"
+			(uuid "de239a48-bbc8-4dc8-8420-97b617decaa6")
+		)
+		(pin "B5"
+			(uuid "81a239ad-286d-461e-876b-50d261a67352")
+		)
+		(pin "A7"
+			(uuid "d5ec041d-3355-4339-808f-aead532db6e7")
+		)
+		(pin "B1/A12"
+			(uuid "4e098188-97f3-4832-92bf-d2ee92d00ad2")
+		)
+		(pin "A5"
+			(uuid "8f7b8668-dbfb-43ca-b620-8de5afc8b42c")
+		)
+		(instances
+			(project "ethdemo"
+				(path "/7dabef91-f4a1-42f5-98eb-8cd98e55ead9"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 433.07 270.51 0)
 		(unit 1)
@@ -28819,6 +29381,84 @@
 			(project "ethdemo"
 				(path "/7dabef91-f4a1-42f5-98eb-8cd98e55ead9"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a98599-e3a0-447f-9d96-411a160081a7")
+		(property "Reference" "#PWR064"
+			(at 113.03 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a9048cc-d5de-41ba-a703-c075f4dbd64b")
+		)
+		(instances
+			(project "ethdemo"
+				(path "/7dabef91-f4a1-42f5-98eb-8cd98e55ead9"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
